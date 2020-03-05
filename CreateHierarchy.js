@@ -209,7 +209,7 @@ export default class CreateHierarchy extends Component {
                               </button>
                             </div>
                             <select
-                              className = "form-control"
+                              
                               id={"type" + id}
                               name={"hier-" + (id + 1)}
                               key={id + "sel"}
@@ -249,7 +249,7 @@ export default class CreateHierarchy extends Component {
                                           </button>
                                         </div>
                                         <select
-                                          className = "form-control"
+                                          
                                           id={"type-" + idx}
                                           name={"child-" + (idx + 1)}
                                           par={"hier" + (id + 1)}
