@@ -1,0 +1,20 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+.uneditable-input:focus {   
+  border-color: #680000;
+  box-shadow: 0 1px 1px #680000 inset, 0 0 8px #680000;
+  outline: 0 none;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #680000 !important;
+}
+
+.btn-primary:focus,
+.uneditable-input:focus {   
+  border-color: #680000;
+  box-shadow: 0 1px 1px #680000 inset, 0 0 8px #680000;
+  outline: 0 none;
+}
